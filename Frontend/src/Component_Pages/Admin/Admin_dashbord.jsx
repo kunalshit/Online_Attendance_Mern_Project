@@ -29,7 +29,7 @@ function classNames(...classes) {
 }
 
 
-const Home = () => {
+const Admin_dashbord = () => {
     return <>
         <div className="min-h-full">
             <Disclosure as="nav" className="bg-gray-900">
@@ -176,4 +176,16 @@ const Home = () => {
     </>
 }
 
-export default Home
+export default Admin_dashbord
+
+
+
+// import React from 'react'
+
+// const Admin_dashbord = () => {
+//   return <>
+
+//   </>
+// }
+
+// export default Admin_dashbord
