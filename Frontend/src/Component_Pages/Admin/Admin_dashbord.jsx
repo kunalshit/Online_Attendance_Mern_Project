@@ -6,26 +6,27 @@ import Logoweb from '/src/Images/Logoweb.png';
 
 
 const user = {
-  name: 'Kunal',
-  email: 'kunal123@gmail.com',
-  imageUrl:
-    '',
+    name: 'Kunal',
+    email: 'kunal123@gmail.com',
+    imageUrl:
+        '',
 }
 const navigation = [
-  { name: 'Sweet Lotus', href: "C:\Users\kunal\MernSatck_projects\Attendance_project\admin_panel\src\Component\home\Home.jsx" , current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-  { name: 'Reports', href: '#', current: false },
+    { name: 'Sweet Lotus', href: "C:\Users\kunal\MernSatck_projects\Attendance_project\admin_panel\src\Component\home\Home.jsx", current: true },
+    { name: 'Home', href: '#', current: false },
+    { name: 'Employees', href: '#', current: false },
+    { name: 'Manager', href: '#', current: false },
+    { name: 'Attendance', href: '#', current: false },
 ]
 const userNavigation = [
-  { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
-  { name: 'Sign out', href: '#' },
+    { name: 'Your Profile', href: '#' },
+    { name: 'Settings', href: '#' },
+    { name: 'Sign out', href: '#' },
 ]
 
+
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+    return classes.filter(Boolean).join(' ')
 }
 
 
@@ -33,14 +34,14 @@ const Admin_dashbord = () => {
     return <>
         <div className="min-h-full">
             <Disclosure as="nav" className="bg-gray-900">
-                <div className=" px-8">
-                    <div className="flex h-16 items-center justify-between">
+                <div className=" px-12">
+                    <div className="flex h-20 items-center justify-between">
                         <div className="flex items-center">
                             <div className="shrink-0 ">
                                 <img
                                     alt="My Company"
                                     src={Logoweb}
-                                    className="size-10 w-24"
+                                    className="size-10 w-36 h-16 grayscale brightness-1000"
 
                                 />
                             </div>
